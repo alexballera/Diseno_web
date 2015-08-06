@@ -60,8 +60,8 @@ header
 
 nav
 {
-  background: #80bca3;
-  padding: 0 0.5em;
+  background: #7488cd;
+  padding: 0 6em 0 0;
   position: relative;
 }
   nav ul
@@ -96,6 +96,7 @@ nav
     color: white;
     display: block;
     padding: 0.5em 0;
+    text-decoration: none;
   }
 
 #contenido
@@ -164,6 +165,11 @@ nav
     margin-top: 3px;
     padding: 0.2em 0.5em;
     border-radius: 0 0 0.5em 0.5em;
+  }
+
+  #contenido .item .votacion a
+  {
+    text-decoration: none;
   }
   #contenido .item .votacion .comentarios_item,
   #contenido .item .votacion .guardar_item
