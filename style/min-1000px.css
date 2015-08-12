@@ -1,0 +1,25 @@
+@media screen and (min-width: 1000px)
+  {
+    aside
+    {
+      display: block;
+      float: right;
+      margin: 1em;
+      width: 20%;
+    }
+    aside video
+    {
+      width: 100%;
+    }
+  }
+
+  /*Vista en impresion
+
+@media print 
+{
+  body
+  {
+    font-size: 50px;
+  }
+}
+*/

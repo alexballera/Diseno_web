@@ -1,0 +1,16 @@
+@media screen and (min-width: 800px)
+  {
+    #contenido
+    {
+      overflow: hidden;
+    }
+    #contenido .item
+    {
+      width: 49%;
+      float: left;
+    }
+    #contenido .item:nth-child(odd) /*impares*/
+    {
+      margin-right: 2%;
+    }
+  }
